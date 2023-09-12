@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400&display=swap");
 body {
-  font-family: "PT Serif", serif;
+  font-family: "Poppins", sans-serif;
 }
 * {
   margin: 0;
@@ -103,7 +102,7 @@ body {
 }
 .datentime ul.bar-prog {
   position: relative;
-  width: 100%;
+  width: 90%;
   margin: 30px 0;
   height: 1px;
   background-color: #5e81f4;
@@ -122,7 +121,8 @@ body {
   display: inline-block;
   border-radius: 50%;
   background: #5e81f4;
-  box-shadow: 0px 0px 20px 5px #5e81f4;
+  box-shadow: 0px 0px 0 4px #d2daf4;
+  border: 5px solid #afbff7;
 }
 .datentime .bar-prog li.cirtwo::before {
   position: absolute;
@@ -147,4 +147,15 @@ body {
   display: inline-block;
   border-radius: 50%;
   background: #5e81f4;
+}
+.dot-text {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+.dot-text p {
+  color: #5e81f4;
+  font-size: 14px;
+  font-weight: 500;
 }
