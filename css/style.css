@@ -29,11 +29,7 @@ body {
     left: 0;
     top: 0;
     bottom: 0;
-<<<<<<< Updated upstream
-    background: url(../images/bg-1.jpg) no-repeat center;
-=======
-    background: url(images/BG-1.jpg) no-repeat center;
->>>>>>> Stashed changes
+    background: url(../images/bg-0.jpg) no-repeat center;
     display: flex;
     flex-direction: column;
 }
