@@ -111,6 +111,21 @@ body {
 .firstboox{
   display: flex;
   flex-direction: column;
+
+  height: 300px;
+}
+.icn-flx {
+  display: flex;
+}
+.crcle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: #6082f2;
+  border: 2px solid;
+  border-radius: 100%;
+  margin-right: -13px;
+
   width: 23%;
   background-color: #7497f6;
   border-radius: 10px;
@@ -132,6 +147,7 @@ body {
   border-radius: 100%;
   background-color: #5654AD;
  
+
 }
 .icon-washing {
   position: absolute;
@@ -139,6 +155,17 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.icon-washing i {
+  color: white;
+}
+.imagee {
+  width: 100px;
+}
+.imagee img {
+  width: 100%;
+}
+
 .icon-washing i{
   color: white;
   padding: 20px;
