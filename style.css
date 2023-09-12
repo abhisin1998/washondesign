@@ -97,24 +97,22 @@ body {
   display: block;
   margin-top: 100px;
 }
-/* .banner-flx {
-  display: flex;
-  flex-direction: column;
-} */
+
 .banner-flx h2 {
   font-size: 44px;
   color: #1e1e5c;
   text-align: center;
 }
-.foursection-flx {
+
+/* --------------------------------------------------fourbox  */
+.fourbox-flx {
   display: flex;
-  border: 2px solid red;
-  width: 25%;
-  background-color: #7ca0f7;
+  justify-content: space-between;
 }
-.wash-fold-colu {
+.firstboox{
   display: flex;
   flex-direction: column;
+
   height: 300px;
 }
 .icn-flx {
@@ -128,6 +126,29 @@ body {
   border: 2px solid;
   border-radius: 100%;
   margin-right: -13px;
+
+  width: 23%;
+  background-color: #7497f6;
+  border-radius: 10px;
+ 
+}
+.first-box {
+  padding: 20px;
+  
+}
+
+.crcle-flx {
+  display: flex;
+  
+}
+.circle-wth{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #5654AD;
+ 
+
 }
 .icon-washing {
   position: absolute;
@@ -135,6 +156,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .icon-washing i {
   color: white;
 }
@@ -144,3 +166,61 @@ body {
 .imagee img {
   width: 100%;
 }
+
+.icon-washing i{
+  color: white;
+  padding: 20px;
+}
+.circle-wth2{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #5654AD;
+  margin-left: -10px;
+
+}
+.icon-washing2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.icon-washing2 i{
+  color: white;
+  padding: 20px;
+}
+.box-imag {
+  width: 22%;
+  margin-left: 190px;
+  
+}
+.box-imag img{
+  width: 100%;
+}
+.wash-txt h2{
+margin-top:10px;
+color: white;
+}
+.wash-txt p{
+  margin-top:10px;
+  color: white;
+  }
+  .button {
+    background-color:#A0B7F7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 900;
+  }
+  /* '-----------------------------------second box ------------- */
+ 
+/* -------------------------------------------------------------third box  */
+  
+
