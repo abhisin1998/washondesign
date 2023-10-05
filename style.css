@@ -696,3 +696,167 @@ gap: 10px;
 .yrar span{
   color: #7BA0F7;
 }
+
+
+/* -------------------------mediaquery--------------------------  */
+@media (max-width: 480px) {
+  .logo-imge {
+    width: 13%;
+  }
+    .icon {
+      font-size: 12px;
+      gap: 5px;
+  }
+  .login-butn {
+    font-size: 13px;
+    padding: 6px 8px;
+  }
+  .nav-list {
+    gap: 11px;
+  }
+  .book-txt {
+   
+    margin-top: 40px;
+  }
+  .book-txt h1 {
+    font-size: 36px;
+  }
+  .navbar {
+    height: 473px;
+  }
+  .booknow-butn {
+    padding: 20px 100px;
+  }
+  .booknow-butn h4 {
+    font-size: 13px;
+  }
+  .banner-flx h2 {
+    font-size: 36px;
+  }
+  .banner {
+    margin-top: 40px;
+  }
+  .fourbox-flx {
+    margin-top: 40px;
+  }
+  .fourbox-flx {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .firstboox {
+    width: 100%;
+  }
+  .second-box{
+    width: 100%;
+  }
+  .third-box{
+    width: 100%;
+  }
+.fourth-box{
+  width: 100%;
+}
+.information {
+  padding: 5px;
+}
+.booknow-butn-two {
+  padding: 14px 45px;
+  width: 100%;
+}
+.booknow-butn-two h4 {
+  font-size: 13px;
+}
+.eye-step h2 {
+  font-size: 36px;
+}
+.tree-imag-flxx {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.booknow-butn-thre {
+  padding: 14px 45px;
+  width: 100%;
+  margin-top: 30px;
+}
+.booknow-butn-thre h4 {
+  font-size: 13px;
+}
+.our h2 {
+  font-size: 36px;
+}
+.frature-flx {
+  display: flex;
+  padding: 0px;
+ flex-direction: column;
+}
+.trested-flx {
+  width: 100%;
+}
+.features {
+  margin-bottom: 50px;
+}
+.frature-flx2{
+  display: flex;
+  padding: 0px;
+ flex-direction: column;
+ margin-top: 0px;
+}
+
+.trested-flx2 {
+  width: 100%;
+}
+.washon-flx {
+  display: flex;
+  flex-direction: column;
+}
+.circle--icons {
+  width: 60px;
+  height: 60px;
+}
+
+.trest-txt {
+  width: 100%;
+}
+.washon-wth {
+  width: 100%;
+  margin-top: 2px;
+}
+.app-flx {
+  width: 50%;
+}
+.iphone {
+  width: 276px;
+}
+.washon-wth h2 {
+  margin-top: 5px;
+  font-size: 36px;
+}
+.custmr {
+  margin-top: 360px;
+}
+.custmr-flx{
+  padding: 0px;
+}
+.foot-logo {
+  width: 76px;
+}
+.foot-flx {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.foot-flx {
+  margin: 30px auto;
+  
+}
+.app-flx-foot {
+  display: flex;
+}
+
+
+
+
+}
