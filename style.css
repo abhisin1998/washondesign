@@ -12,7 +12,8 @@ body {
 .container {
   margin: 0 auto;
   overflow: hidden;
-  width: 1300px;
+  max-width: 1300px;
+  width: 100%;
   padding: 0 20px;
 }
 .navbar {
@@ -370,6 +371,7 @@ body {
   justify-content: space-between;
   gap: 80px;
   padding: 100px;
+
 }
 .imag-ttext {
   display: flex;
